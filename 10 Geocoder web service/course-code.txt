@@ -1,0 +1,2 @@
+In case you need to refer later to the code we wrote in this course you can find the complete lectures in the link below:
+https://github.com/arditsulceteaching/thepythonmegacourse 
