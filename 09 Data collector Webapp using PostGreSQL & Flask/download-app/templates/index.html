@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <title> Data Collector App</title>
+  <head>
+    <link href="../static/main.css" rel="stylesheet">
+  </head>
+    <body>
+      <div class="container">
+        <h1>Collecting height</h1>
+        <h3>Please fill the entires to get population statistics on height</h3>
+        <div class="message">
+          {{text | safe}}
+        </div>
+        <form action="{{url_for('success')}}" method="POST" enctype="multipart/form-data">
+          <input type="file" name="file" > <br>
+          <button type="submit"> Submit </button>
+        </form>
+        {% include btn ignore missing %}
+      </div>
+    </body>
+</html>

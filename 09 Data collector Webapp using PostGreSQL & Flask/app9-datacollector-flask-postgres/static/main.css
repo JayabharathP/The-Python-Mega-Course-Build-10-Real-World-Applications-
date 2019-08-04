@@ -1,0 +1,52 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  background-color: #006666;
+  color: #e6ffff;
+  overflow:hidden;
+  text-align: center;
+}
+
+.container h1 {
+  font-family: Arial, sans-serif;
+  font-size: 30px;
+  color: #e6ffff;
+  margin-top: 80px;
+}
+
+.container form {
+  margin: 20px;
+}
+
+.container input {
+  width: 350px;
+  height: 15px;
+  font-size: 15px;
+  margin: 2px;
+  padding: 20px;
+  transition: all 0.2s ease-in-out;
+}
+
+.container button {
+  width:70px;
+  height: 30px;
+  background-color: steelblue;
+  margin: 3px;
+}
+
+.success-message {
+  margin: 100px;
+}
+
+.email {
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  color:  #ff9999;
+  transition: all 0.2s ease-in-out;
+}

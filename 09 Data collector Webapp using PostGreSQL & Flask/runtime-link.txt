@@ -1,0 +1,3 @@
+Please see the following link for the current supported runtime for Python 3. Make sure that your runtime.txt file contain that runtime.
+
+https://devcenter.heroku.com/articles/python-runtimes#supported-python-runtimes
